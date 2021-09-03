@@ -6,7 +6,7 @@ $(document).ready(() => {
     let day = document.getElementById('day');
     let week = document.getElementById('week');
 
-
+    const MAPBOX_API_TOKEN = 'pk.eyJ1IjoiYW50aG9ueXZpbGxlZ2FzODciLCJhIjoiY2tzamN1cDdhMmNzcDJ0cm9ic3JnbTlkaiJ9.SupH0mqRXDgBU8M3GC9X_Q'
     // Map Box
     mapboxgl.accessToken = MAPBOX_API_TOKEN;
     const map = new mapboxgl.Map({
