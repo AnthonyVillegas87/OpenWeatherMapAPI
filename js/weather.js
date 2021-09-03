@@ -43,8 +43,7 @@ $(document).ready(() => {
     })
 
 
-
-
+    const WEATHER_API_TOKEN = '9a777bf7bf863f7cd3d4cb11b8fd04a5'
 // for data retrieval
     function weather(obj) {
         fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${obj.lat}&lon=${obj.lng}&exclude=minutely&units=imperial&appid=${WEATHER_API_TOKEN}`)
